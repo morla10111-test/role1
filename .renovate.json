@@ -1,5 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "ansible-galaxy": {
+ "fileMatch": ["(^|/)(galaxy|requirements)(\\.ansible)?\\.ya?ml$", "meta/main\\.yml"]
+  },
+
     "packageRules": [
     {
       "versioning": "regex:^release-v?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$",
