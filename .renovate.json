@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "ansible-galaxy": {
- "fileMatch": ["(^|/)(galaxy|requirements)(\\.ansible)?\\.ya?ml$", "meta/main\\.yml"]
+    "fileMatch": ["(^|/)(galaxy|requirements)(\\.ansible)?\\.ya?ml$", "(^|/)meta/main\\.ya?ml$"]
   },
 
     "packageRules": [
