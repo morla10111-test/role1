@@ -2,4 +2,4 @@ dependencies:
   - src: https://github.com/morla10111-test/role2.git
     name: role2
     scm: git
-    version: release-0.0.2
+    version: release-0.0.3
